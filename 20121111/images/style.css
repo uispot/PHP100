@@ -2,6 +2,9 @@ body,h1,h2,h3,h4,h5,div,ul,li,p{margin:0; padding:0;}
 li{ list-style:none;}
 
 body{ font-size:12px; font-family:Verdana,Arial,Tahoma;}
+img{ border:0; visibility:bottom;}
+a:link,a:visited,a:hover{color:#F38002;}
+
 .clearfix:after{
 	content:".";
 	display:block;
@@ -9,6 +12,9 @@ body{ font-size:12px; font-family:Verdana,Arial,Tahoma;}
 	clear:both;
 	visibility:hidden;
 }
+.wrap{width:970px; margin:0 auto;}
+.left{float:left;}
+.right{float:right;}
 
 #header{width:970px; height:50px; margin:0 auto; border-top:10px solid #000; padding:30px 0;}
 #header .logo{float:left;}
@@ -20,8 +26,16 @@ body{ font-size:12px; font-family:Verdana,Arial,Tahoma;}
 #header .logo a{display:block; width:367px; height:52px; background:url(logo.gif) no-repeat; text-indent:-9999px;}
 
 .top-head .nav{ background:url(navbg.jpg) repeat-x;}
-.top-head .nav ul{width:970px; margin:0 auto;}
 .top-head .nav li{float:left;}
 .top-head .nav li a{display: block; height:40px; line-height:40px; color:#fff; font-size:14px; padding:0 20px;text-decoration: none;}
 .top-head .banner{height:320px; background:#144E76}
+
+#content{width:600px; margin:35px auto; padding-left:370px; position:relative;}
+.conFangan{position:absolute; margin-left:-370px; padding:0 40px 0 20px; width:310px;}
+/*.conAbout{position:absolute;}*/
+.conFangan h2,.conAbout h2{ display:block; height:30px; background:url(hp-bt.gif) no-repeat left top; text-indent:-9999px;}
+.conAbout h2{background-position:left -40px;}
+
+#footer{background:#000; height:60px; line-height:60px; border-top:5px solid #efefef; color:#fff;}
+
 
