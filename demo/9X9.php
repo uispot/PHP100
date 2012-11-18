@@ -33,7 +33,18 @@
 		echo "<br>";
 	}
 
-
+// while 来做
+	echo "<hr>";
+	$i=1;
+	while($i<=9){
+		$j=1;
+		while($j<=$i){
+			echo $i . "*" . $j . "=" . $i*$j . "&nbsp;";
+			$j++;
+		}
+		$i++;
+		echo "<br/>";
+	}
 ?>
 </body>
 </html>
